@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "MrScorpionEz",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "4.17.1",
     "pug": "3.0.0"
-  }
+  },
+  "engines":{
+    "npm": "^6.14.10",
+    "node":"^14.15.4"
+    }
 }

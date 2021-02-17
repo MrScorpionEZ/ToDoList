@@ -1,4 +1,4 @@
-const {Identity} = require("./");
+const { Identity } = require("./")
 
 exports.Task = class Task {
     constructor(title, start, end, status){
